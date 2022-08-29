@@ -10,6 +10,7 @@
   "author": "FANYAO BU",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.27.2",
     "live-server": "^1.2.2"
   }
 }
