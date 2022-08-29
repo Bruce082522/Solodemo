@@ -1,4 +1,4 @@
-export default {
+module.exports = {
   products: [
     {
       _id: "1",
@@ -64,6 +64,28 @@ export default {
       branding: "nike",
       rating: 4.8,
       numReviews: 1000,
+      numInStock: 100,
+    },
+    {
+      _id: "2",
+      name: "pants",
+      category: "pants",
+      image: "/images/product-7.jpg",
+      price: 50,
+      branding: "nike",
+      rating: 4.5,
+      numReviews: 10,
+      numInStock: 100,
+    },
+    {
+      _id: "8",
+      name: "shirt",
+      category: "clothes",
+      image: "/images/product-8.jpg",
+      price: 50,
+      branding: "nike",
+      rating: 4.5,
+      numReviews: 10,
       numInStock: 100,
     },
   ],
